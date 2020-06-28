@@ -2,8 +2,21 @@
 
 /*----------Colors*/
 
-.bg-color-heading {
-    background-color: #69f0ae;
+.bg-color {
+    background-color: #d50000;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff
+}
+
+a:hover {
+    color: #000;
+    background-color: #9b0000;
 }
 
 /*----------Header*/
@@ -13,7 +26,7 @@ header {
 }
 
 .heading {
-    text-align: center;
+    margin: 0;
 }
 
 .name {
@@ -21,10 +34,28 @@ header {
     font-weight: 300;
     font-size: 50px;
     color: #fff;
-    margin-top: 20px;
     text-align: center;
+    display: inline-block;
 }
 
-.main-logo {
-    background-color: #69f0ae;
+.logo {
+    background: url("..images/corner-cafe-logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.navbar {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+    display: inline;
+}
+
+/*----------Content*/
+
+{
+
 }
